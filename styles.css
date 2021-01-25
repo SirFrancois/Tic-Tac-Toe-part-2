@@ -1,0 +1,54 @@
+
+#board{
+    display:grid;
+    justify-content: center;
+    align-content: center ;
+    padding: 3em;
+       text-align: center;
+    background-color: coral;
+}
+
+.row{
+    font-family:cursive;
+    height: 100px;
+    width: 303px;
+    clear: both;
+    background-color: black;
+    border: 1px solid ;
+}
+
+.row:first-child,
+.row:nth-child(2),
+.row:nth-child(3),{
+    border-top: none
+}
+
+.row >div{
+    height: 100px;
+    width: 100px;
+    /* border:1px solid black; */
+    float: left;
+     
+    /* border-top: solid green;
+    border-bottom: solid blue;
+    border-left: blueviolet solid;
+    border-right: indianred solid; */
+}
+.top{
+    border-bottom: 1px solid white;
+}
+
+.bottom{
+    border-top: 1px solid white;
+}
+
+.middle{}
+
+.left{
+    border-right: 1px solid white;
+}
+
+.right{
+    border-left: 1px solid white;
+}
+
